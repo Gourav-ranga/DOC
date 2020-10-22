@@ -1,0 +1,10 @@
+
+************************   Commands to push code on github  **************************
+
+git init
+
+git add .
+
+git commit -m "comment"
+
+git push origin master
