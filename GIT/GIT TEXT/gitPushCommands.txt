@@ -16,3 +16,13 @@ gitk [FileName]
 **************** recover the file if you have accidently delete it from local and did not commit ****************
 
 git checkout HEAD .
+
+
+**************  take changes/update from central repository ********************
+
+
+git fetch --all
+
+******************* to see commit log ********************
+
+git log
