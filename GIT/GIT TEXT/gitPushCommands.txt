@@ -8,3 +8,11 @@ git add .
 git commit -m "comment"
 
 git push origin master
+
+********************** see last changes in file *********************************
+
+gitk [FileName]
+
+**************** recover the file if you have accidently delete it from local and did not commit ****************
+
+git checkout HEAD .
