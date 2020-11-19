@@ -1,0 +1,11 @@
+
+/************************ query to find data type of a table (TXN_ClientAccount)  ***************/
+
+select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME = 'TXN_ClientAccount'
+
+
+/********************* To find number of tables & procedures in a database *****************/
+
+select count(*) from sys.tables as tablename
+
+select count(*) from sys.procedures as proceduresName
