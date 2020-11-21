@@ -1,6 +1,10 @@
 
 ************************   Commands to push code on github  **************************
 
+git remote add origin [URL]
+
+git remote -v  // verify
+
 git init
 
 git add .
@@ -26,3 +30,19 @@ git fetch --all
 ******************* to see commit log ********************
 
 git log
+
+********************   to see the changes in files on local *******************
+
+git diff     // Print out differences between your working directory and the index.
+
+git diff --name-status     		// Show only names and status of changed files.
+
+git diff --color-words    	//  Word by word diff instead of line by line.
+
+git diff --name-only  		//  Show only names of changed files.
+
+git diff --cached:		//Print out differences between the index and HEAD (current commit).
+
+git diff HEAD:		//Print out differences between your working directory and the HEAD.
+
+
