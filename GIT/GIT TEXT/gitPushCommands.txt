@@ -19,6 +19,8 @@ git push origin master
 git pull origin master
 
 
+
+
 ********************** see last changes in file *********************************
 
 gitk [FileName]
