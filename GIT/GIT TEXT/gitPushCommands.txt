@@ -1,5 +1,6 @@
 
 ************************   Commands to push code on github  **************************
+git clone [URL] -b master
 
 git remote add origin [URL]
 
